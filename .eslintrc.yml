@@ -20,3 +20,4 @@ extends:
 rules:
   import/extensions: 0
   import/no-extraneous-dependencies: [error, { devDependencies: true }]
+  no-underscore-dangle: [error, { allow: [__dirname, __filename] }]
