@@ -4,7 +4,7 @@ import http from 'http';
 import url from 'url';
 import querystring from 'querystring';
 
-import { validate, nextId } from './user';
+import { validate, nextId } from './user.js';
 
 const getParams = (address) => {
   const { query } = url.parse(address);
